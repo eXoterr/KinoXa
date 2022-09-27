@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoXa</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Kino<span>X</span>a</h1>
+            <h2>Movie search portal</h2>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div id="player">
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <main>
+                <div class="search">
+                    <input type="text" class="input" id="search-text">
+                    <button id="do-search" class="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <div class="movies" id="listing">
+                    <div class="loading">
+                        <p>loading film list...</p>
+                        <p>(if it doesn't load, set your <a href="https://kinopoiskapiunofficial.tech/">api key</a> in "src/config.js")</p>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="button" id="prev"><i class="bi bi-arrow-left-circle-fill"></i></button>
+                    <button class="button" id="next"><i class="bi bi-arrow-right-circle-fill"></i></button>
+                </div>
+                <p>Made by © eXoterr 2022</p>
+            </main>
+        </div>
+    </section>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

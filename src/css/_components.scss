@@ -1,0 +1,26 @@
+.input, .button{
+    border-radius: 30px;
+    border: none;
+    background: none;
+    height: 45px;
+    
+}
+
+.input{
+    border: 2px solid $gray;
+    padding: 0 10px;
+}
+
+.button{
+    border-radius: 50px;
+    background: $red;
+    width: 45px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button i{
+    font-size: 25px;
+    background: none;
+    color: #fff;
+}
