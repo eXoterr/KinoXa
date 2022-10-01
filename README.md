@@ -16,21 +16,21 @@
 - Install nodejs, npm
 - Clone this repository
 ```bash
-    $ git clone https://github.com/eXoterr/KinoXa.git
+$ git clone https://github.com/eXoterr/KinoXa.git
 ```
 - open cloned folder
 ```bash
-    $ cd ./KinoXa
+$ cd ./KinoXa
 ```
 - install dependencies
 ```bash
-    $ npm install
+$ npm install
 ```
 
 - configure project editing 'src/config.js'
 - run dev server
 ```bash
-    $ npm run dev
+$ npm run dev
 ```
 - Enjoy!
 
