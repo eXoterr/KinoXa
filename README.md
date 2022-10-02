@@ -26,8 +26,8 @@ $ cd ./KinoXa
 ```bash
 $ npm install
 ```
-
-- configure project editing 'src/config.js'
+- set api key(s) in ".env" (file content can be copied from ".env.example")
+- configure project by editing "src/config.js"
 - run dev server
 ```bash
 $ npm run dev
